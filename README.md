@@ -99,14 +99,13 @@ See [`STATUS.md`](STATUS.md) for a concise maturity and falsifiability overview.
   - `toy04_boundary_force_model_discrimination.py`
   - `toy05b_casimir_signature_models.py`
   - `toy08d_baby_skyrme_relax_and_hold.py`
+  - `toy09_superselection_sector_mixing.py`
   - `toy10_integrator_identity_plus_boundary_allowed_region.py`
   - `toy11_robustness_identity_plus_boundary_stress.py`
   - `toy12_boundary_battlefield_plateau_vs_nulls.py`
   - `toy12b_boundary_model_selection.py`
   - `toy13_joint_boundary_and_khz_fingerprint.py`
   - `toy14_active_lockin_causality_phase_harmonics.py`
-  - `toystoy09_superselection_sector_mixing.py`
-
   - `scsm_utils/`  
     Shared utilities used across toy models.
 
