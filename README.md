@@ -46,17 +46,69 @@ See [`STATUS.md`](STATUS.md) for a concise maturity and falsifiability overview.
 
 ## Repository Guide
 
-- [`THEORY.md`](THEORY.md)  
+### Core Documents
+
+- [`README.md`](README.md)  
+  High-level overview, scope, and claims.
+
+- [`THEORY.MD`](THEORY.MD)  
   Canonical technical document (arXiv-aligned).
 
-- [`TOYS.md`](TOYS.md)  
-  Adversarial toy model program and refinements.
+- [`STATUS.MD`](STATUS.MD)  
+  Project maturity, closure status, and remaining falsifiable claims.
 
-- [`NEGATIVE_RESULTS.md`](NEGATIVE_RESULTS.md)  
-  Explicitly eliminated mechanisms and failure modes.
+---
+
+### Validation & Falsification
 
 - [`FALSIFICATION.md`](FALSIFICATION.md)  
-  Pass/fail criteria and experimental outcome logic.
+  Explicit pass/fail criteria and experimental outcome logic.
+
+- [`NEGATIVE_RESULTS.md`](NEGATIVE_RESULTS.md)  
+  Eliminated mechanisms, ruled-out interpretations, and failure modes.
+
+---
+
+### Process, Lineage & Metadata
+
+- [`docs/process/`](docs/process/)  
+  Methodology notes, decision logs, and phase-closure reasoning.
+
+- [`SCSM_Contributions_ChatGPT_vs_Perplexity.md`](SCSM_Contributions_ChatGPT_vs_Perplexity.md)  
+  Tool-assisted contribution provenance and comparative capability notes.
+
+- [`CHANGELOG.md`](CHANGELOG.md)  
+  Version history and material changes.
+
+- [`CITATION.cff`](CITATION.cff)  
+  Citation metadata.
+
+- [`LICENSE`](LICENSE)  
+  MIT License.
+
+---
+
+### Adversarial Models & Toy Systems
+
+- [`toys/`](toys/)  
+  Adversarial toy models used for stress-testing and Phase-I validation.
+
+  - `toy01_chi_bio_open_system.py`
+  - `toy02d_chi_signed_baseband_identifiability.py`
+  - `toy03_chi_identifiability_phase_diagram.py`
+  - `toy04_boundary_force_model_discrimination.py`
+  - `toy05b_casimir_signature_models.py`
+  - `toy08d_baby_skyrme_relax_and_hold.py`
+  - `toy10_integrator_identity_plus_boundary_allowed_region.py`
+  - `toy11_robustness_identity_plus_boundary_stress.py`
+  - `toy12_boundary_battlefield_plateau_vs_nulls.py`
+  - `toy12b_boundary_model_selection.py`
+  - `toy13_joint_boundary_and_khz_fingerprint.py`
+  - `toy14_active_lockin_causality_phase_harmonics.py`
+  - `toystoy09_superselection_sector_mixing.py`
+
+  - `scsm_utils/`  
+    Shared utilities used across toy models.
 
 ---
 
