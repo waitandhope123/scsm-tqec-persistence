@@ -49,9 +49,6 @@ See [`STATUS.md`](STATUS.md) for a concise maturity and falsifiability overview.
 - [`THEORY.md`](THEORY.md)  
   Canonical technical document (arXiv-aligned).
 
-- [`TOYS.md`](TOYS.md)  
-  Adversarial toy model program and refinements.
-
 - [`NEGATIVE_RESULTS.md`](NEGATIVE_RESULTS.md)  
   Explicitly eliminated mechanisms and failure modes.
 
