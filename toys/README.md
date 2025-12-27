@@ -1,64 +1,225 @@
-# SCSM Phase-I Toy Models
+# SCSM Phase-I Toy Model Program (Exhaustive, File-Accurate)
 
-This directory contains the **adversarial toy models** used to stress-test,
-refine, and (where necessary) eliminate claims made by SCSM during Phase-I.
+This directory contains **all adversarial toy models** developed during
+Phase-I of the Speculative Consciousness Substrate Model (SCSM).
 
-The toy program is intentionally transparent: both positive and negative
-results are preserved.
+Every toy listed here corresponds to a concrete `.py` file in this directory.
+No toys are omitted, merged, or summarized away.
 
----
-
-## How to Read This Directory
-
-- Each `toyXX_*` folder is a **self-contained experiment**.
-- Toys were allowed to break claims; failure is treated as a valid outcome.
-- Earlier toys are retained for provenance and context.
-- **Toy11–Toy15 define the official Phase-I closure set.**
-
-No toy in this directory is required to be run to understand the theory;
-their purpose is validation, not pedagogy.
+Negative results are preserved intentionally.
 
 ---
 
-## Phase-I Canonical Toys
+## Shared Utilities (Toybench)
 
-The following toys directly define Phase-I closure:
+The following utilities are used by **Toy01–Toy14** unless explicitly stated:
 
-- **Toy11** — Identity / superselection stability under open-system dynamics  
-- **Toy12 / Toy12B** — Boundary phenomenology and model degeneracy  
-- **Toy13** — Failure of joint passive evidence  
-- **Toy14** — Limits of weak χ identifiability under active probing  
-- **Toy15** — Terminal closure of nonlinear / threshold χ phenomenology  
+- `scsm_utils/io_utils.py` — output contract, run directories, CSV/JSON/HDF5
+- `scsm_utils/plot_utils.py` — safe plotting helpers
+- `scsm_utils/spectral_utils.py` — FFT / PSD / peak helpers
 
-These toys collectively determine which claims survived Phase-I.
+⚠️ **Toy15 does NOT use toybench utilities.**
 
 ---
 
-## Outputs and Utilities
+## Toy01 — χ Bio Open System Prototype
+**File:** `toy01_chi_bio_open_system.py`
 
-- `outputs/`  
-  Centralized storage of generated datasets, figures, and summaries,
-  including retrofitted outputs from Toy15.
+**Question:**  
+Can χ-like coupling be inferred from noisy open-system biological dynamics?
 
-- `scsm_utils/`  
-  Shared utilities used by earlier toys. Toy15 was intentionally implemented
-  independently to avoid structural bias.
+**Outcome:**  
+Signal collapses under null noise; no identifiable χ signature.
+
+**Status:** Retained for provenance only.
 
 ---
 
-## Reproducibility Notes
+## Toy02 — χ Identifiability (Single Setting)
+**File:** `toy02_chi_identifiability.py`
 
-- Toys were designed for **conceptual stress-testing**, not numerical
-  optimization or production benchmarking.
-- Numerical instability, null mimicry, and degeneracy are considered
-  meaningful outcomes.
-- Results are interpreted qualitatively and comparatively, not as precision
-  predictions.
+**Question:**  
+Is χ identifiable at a fixed parameter point?
+
+**Outcome:**  
+No — null models match observables.
+
+---
+
+## Toy02B — χ Identifiability (Variant Nulls)
+**File:** `toy02b_chi_identifiability.py`
+
+**Outcome:**  
+Identifiability failure persists under alternative null constructions.
+
+---
+
+## Toy02C — χ Identifiability (Demod Variant)
+**File:** `toy02c_chi_identifiability.py`
+
+**Outcome:**  
+Demodulation does not rescue identifiability.
+
+---
+
+## Toy02D — χ Identifiability (Extended Diagnostics)
+**File:** `toy02d_chi_identifiability.py`
+
+**Outcome:**  
+All diagnostics fail to distinguish χ from adversarial nulls.
+
+---
+
+## Toy03 — χ Identifiability Phase Diagram
+**File:** `toy03_chi_identifiability_phase_diagram.py`
+
+**Question:**  
+Where (if anywhere) is χ detectable across coupling × noise space?
+
+**Outcome:**  
+Detectability regions shrink to zero under realistic margins.
+
+---
+
+## Toy04 — Boundary Force Plateau Prototype
+**File:** `toy04_boundary_force_plateau.py`
+
+**Question:**  
+Is a plateau-shaped boundary force operationally measurable?
+
+**Outcome:**  
+Yes — but form is not unique.
+
+---
+
+## Toy05 — Boundary Null Mimicry I
+**File:** `toy05_boundary_nulls.py`
+
+**Outcome:**  
+Null forces reproduce plateau-like behavior.
+
+---
+
+## Toy06 — Boundary Scaling Stress Test
+**File:** `toy06_boundary_scaling.py`
+
+**Outcome:**  
+Scaling arguments do not isolate boundary physics.
+
+---
+
+## Toy07 — Boundary Drift & Noise
+**File:** `toy07_boundary_drift.py`
+
+**Outcome:**  
+Drift dominates over functional distinctions.
+
+---
+
+## Toy08 — Boundary Degeneracy Sweep
+**File:** `toy08_boundary_degeneracy.py`
+
+**Outcome:**  
+Multiple models coexist within error tolerance.
+
+---
+
+## Toy09 — Identity Leakage (Precursor)
+**File:** `toy09_identity_leakage.py`
+
+**Question:**  
+Does sector identity leak under weak mixing?
+
+**Outcome:**  
+Leakage can be bounded → motivates Toy11.
+
+---
+
+## Toy10 — Identity + Boundary Integrator
+**File:** `toy10_integrator_identity_plus_boundary_allowed_region.py`
+
+**Question:**  
+Can identity stability and boundary measurability coexist?
+
+**Outcome:**  
+Yes, but only in a restricted region.
+
+---
+
+## Toy11 — Identity Stability Under Stress
+**File:** `toy11_robustness_identity_plus_boundary_stress.py`
+
+**Outcome:**  
+Identity persistence is mathematically viable.
+
+**Status:** **Survives Phase-I**
+
+---
+
+## Toy12 — Boundary Battlefield (Dataset Generator)
+**File:** `toy12_boundary_battlefield_plateau_vs_nulls.py`
+
+**Purpose:**  
+Generate realistic, adversarial boundary datasets.
+
+---
+
+## Toy12B — Boundary Model Selection
+**File:** `toy12b_boundary_model_selection.py`
+
+**Outcome:**  
+Static boundary curves are not diagnostic.
+
+---
+
+## Toy13 — Joint Passive Evidence Failure
+**File:** `toy13_joint_boundary_and_khz_fingerprint.py`
+
+**Outcome:**  
+Joint passive evidence performs worse than boundary-only.
+
+**Claim eliminated.**
+
+---
+
+## Toy14 — Active χ Identifiability
+**File:** `toy14_active_lockin_causality_phase_harmonic.py`
+
+**Outcome:**  
+Causal lag exists in principle, but not experimentally usable.
+
+**Weak χ eliminated.**
+
+---
+
+## Toy15 — Nonlinear / Threshold χ Closure
+**File:** `toy15_final_FIXED.py`
+
+⚠️ **Standalone (no toybench utilities)**
+
+**Outcome:**  
+- 0% reliable recovery  
+- Null false positives dominate  
+- Numerical instability overwhelms signal  
+
+**All χ phenomenology eliminated.**
+
+---
+
+## Phase-I Closure
+
+After Toy15, no experimentally accessible χ pathway remains.
+
+Remaining SCSM content is:
+- topological / identity persistence
+- boundary observables as measurement channels only
 
 ---
 
 ## Status
 
-- **Phase-I:** Complete  
-- **Remaining claims:** See top-level `FALSIFICATION.md`  
-- **Negative results:** Explicitly documented in `NEGATIVE_RESULTS.md`
+- **Phase-I:** COMPLETE  
+- **Surviving pillars:** Identity stability, boundary measurability  
+- **Eliminated:** χ phenomenology (weak, strong, nonlinear)
+
+See `NEGATIVE_RESULTS.md` and `FALSIFICATION.md` for claim disposition.
