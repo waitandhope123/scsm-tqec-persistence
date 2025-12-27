@@ -1,3 +1,8 @@
+> **Reproducibility note:**  
+> Output artifacts (datasets, figures, summaries) are not version-controlled.  
+> All results in this directory are reproducible by rerunning the corresponding toy scripts.
+> Only decision-driving toy models are preserved; exploratory or superseded runs were not retained.
+
 # SCSM Phase-I Toy Model Program (Exhaustive, File-Accurate)
 
 This directory contains **all adversarial toy models** developed during
