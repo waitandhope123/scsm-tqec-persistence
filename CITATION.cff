@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below."
+title: "Topological Persistence Sectors via TQEC"
+authors:
+  - family-names: "DeRenzis"
+    given-names: "Sam"
+version: "v11.5.3"
+date-released: 2025-12-27
+repository-code: "https://github.com/<your-username>/scsm-tqec-persistence"
+license: MIT
+keywords:
+  - topological quantum error correction
+  - superselection sectors
+  - persistence
+  - open quantum systems
+  - speculative physics
+  - boundary phenomenology
+abstract: >
+  A Phase-I complete speculative physics framework realizing identity
+  persistence as a topologically protected superselection structure using
+  tools from topological quantum error correction (TQEC). The framework is
+  tightly scoped, adversarially toy-validated, and explicitly falsifiable,
+  with all detectable mediator phenomenology eliminated and a single
+  decisive experimental test identified.
