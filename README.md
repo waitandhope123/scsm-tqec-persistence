@@ -40,20 +40,9 @@ or experimentally indistinguishable mechanisms have been explicitly eliminated.
 - **Validation:** 15 adversarial toy models (Toy11–Toy15 define Phase-I closure)
 - **Remaining claims:** small, explicit, and falsifiable
 
-See [`STATUS.md`](STATUS.md) for a concise maturity and falsifiability overview.
-
 ---
 
 ## Repository Guide
-
-- [`THEORY.md`](THEORY.md)  
-  Canonical technical document (arXiv-aligned).
-
-- [`NEGATIVE_RESULTS.md`](NEGATIVE_RESULTS.md)  
-  Explicitly eliminated mechanisms and failure modes.
-
-- [`FALSIFICATION.md`](FALSIFICATION.md)  
-  Pass/fail criteria and experimental outcome logic.
 
 ---
 
