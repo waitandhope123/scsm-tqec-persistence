@@ -1,3 +1,5 @@
+Project status: Closed (see PROGRAM_STATUS.md)
+
 # scsm-tqec-persistence
 
 A Phase-I complete speculative physics framework realizing **identity persistence**
