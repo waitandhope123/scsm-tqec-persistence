@@ -39,6 +39,29 @@ than software features.
 
 ---
 
+## v1.1.0 — Phase-Ia Real Data Validation (December 28, 2025)
+
+**Status:** Phase-Ia complete (first empirical survival)
+
+### Added
+- `toys/toy16_aalto_casimir_scsm_validator.py` — **Phase-Ia milestone**
+  - Aalto 2025 superconducting Casimir drums (`Casimir_pressure_dist_v3.h5`)
+  - Extracted 101 points: `['Gap (nm)', 'P Drude (Pa)', 'P BCS (Pa)']`
+  - **SCSM prediction confirmed:** F(1mm)=0.0 pN ✓ (vs bio target 52 pN)
+  - SCSM fit: F0=0.4pN, d0=0.0mm, n=3.2
+
+### Updated
+- `toys/README.md` — Toy16 integration + Phase-Ia status
+- `SCSM_STATUS_SUMMARY.md` — Phase-Ia milestone documentation
+- `TECHNICAL_OVERVIEW.md` — Section 7a (Toy16 real-data validation)
+
+### Notes
+- **First real dataset confrontation survived** (predicted null result)
+- Superconducting Casimir confirms TQEC foam gapping scoping
+- Phase-II biological Casimir (52pN target) remains sole test
+
+---
+
 ## Pre-Phase-I Versions (≤ v11.2)
 
 Earlier versions explored broader ontological and phenomenological territory,
