@@ -1,5 +1,7 @@
 Project status: Closed (see FINAL_STATUS.md)
 
+“Claim A remains as a scoped mathematical result; no physical realization is claimed.”
+
 # scsm-tqec-persistence
 
 A Phase-I complete speculative physics framework realizing **identity persistence**
