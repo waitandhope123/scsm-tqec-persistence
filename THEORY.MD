@@ -1,18 +1,17 @@
 > **Scope notice:** This document presents a Phase-I–complete mathematical and
 > phenomenological framework. No claim of empirical confirmation is made.
 
-# Topological Persistence Sectors via TQEC in AQG-Type Algebras  
-## Adversarial Toy Validation
+# Topological Persistence Sectors via TQEC in AQG-Type Algebras – Adversarial Toy Validation
 
 **Date:** December 27, 2025  
-**Status:** Phase-I COMPLETE (100%) — adversarial toys + critique-hardened  
+**Status:** Phase-I COMPLETE (100%) – adversarial toys + critique-hardened  
 **Scope:** Mathematical realization of persistence stability via TQEC sectors (existence proof only).
 
 > **One-Line Definition:**  
 > Mathematical realization of persistence stability via TQEC-protected topological sectors
 > \(Q=(\text{charge},\text{fusion channel})\) in AQG-*type* algebras; embodiment as open-system
-> boundary with Casimir phenomenology (coherence threshold
-> \(\tau>10^{-4}\,\mathrm{s}\)); \(\chi\) EFT-permitted but undetectable (Toy15).
+> boundary with Casimir phenomenology (coherence threshold \(\tau>10^{-4}\,\mathrm{s}\));
+> \(\chi\) EFT-permitted but undetectable (Toy15).
 
 ---
 
@@ -22,18 +21,15 @@
 AQG-*type* algebra (speculative) admits superselection sectors with topological labels.
 
 ### A2. Persistence Stability
-TQEC-protected sectors
-\(Q=(\text{charge},\text{fusion channel})\).
+TQEC-protected sectors \(Q=(\text{charge},\text{fusion channel})\).
 
-$$
-\text{Leakage} \propto e^{-L/\xi}
-$$
+$$\text{Leakage}\propto e^{-L/\xi}$$
 
 (ground-state degeneracy vs. local perturbations).
 
 - **Mathematical existence proof:** non-Abelian anyons (e.g. \(\nu=5/2\) FQH)  
-  [Preskill Ph219; Nayak *Rev. Mod. Phys.* 2008].
-- **AQG embedding:** requires diffeomorphism-neutral encoding (open problem).
+  [Preskill Ph219; Nayak *Rev. Mod. Phys.* 2008].  
+- **AQG embedding:** requires diffeomorphism-neutral encoding (open problem).  
 - **Toy11:** \(\varepsilon\)–\(\gamma\) Zeno region physically realizable.
 
 ---
@@ -42,43 +38,21 @@ $$
 Open-system Lindblad dynamics at a bio–foam interface, restricted to coherence
 thresholds \(\tau>10^{-4}\,\mathrm{s}\):
 
-$$
-\dot{\rho}_{\mathrm{bio}}
-=
--i[H_{\mathrm{bio}},\rho_{\mathrm{bio}}]
-+
-\gamma\left(
-L\rho_{\mathrm{bio}}L^\dagger
--
-\frac{1}{2}\{L^\dagger L,\rho_{\mathrm{bio}}\}
-\right)
-$$
+$$\dot{\rho}_{\mathrm{bio}}=-i[H_{\mathrm{bio}},\rho_{\mathrm{bio}}]+\gamma\left(L\rho_{\mathrm{bio}}L^\dagger-\frac{1}{2}\{L^\dagger L,\rho_{\mathrm{bio}}\}\right)$$
 
 ---
 
 ### A4. Scale Bridge (Demoted)
-\(\chi\) mediation is EFT-permitted but Toy15-undetectable
-(0% recovery at realistic SNR).
+\(\chi\) mediation is EFT-permitted but Toy15-undetectable (0% recovery at realistic SNR).
 
 ---
 
 ## 2) Schematic Low-Energy EFT
 
-$$
-\mathcal{L}_{\mathrm{EFT}}^{\text{(schematic)}}
-=
-\sqrt{-g}\Big[
-R+\alpha R^2
-+g_\psi\,\bar{\psi}_{\mathrm{ID}}\gamma^\mu D_\mu\psi_{\mathrm{ID}}
-+\tfrac{1}{2}(\partial\chi)^2
--\tfrac{1}{2}m_\chi^2\chi^2
-+g_\chi\,\chi\,\mathrm{Tr}(\hat{\mathcal{A}}\hat{\mathcal{E}})
-+\lambda_\chi\,\chi|\psi_{\mathrm{bio}}|^2
-\Big]
-$$
+$$\mathcal{L}_{\mathrm{EFT}}^{\text{(schematic)}}=\sqrt{-g}\Big[R+\alpha R^2+g_\psi\bar{\psi}_{\mathrm{ID}}\gamma^\mu D_\mu\psi_{\mathrm{ID}}+\tfrac{1}{2}(\partial\chi)^2-\tfrac{1}{2}m_\chi^2\chi^2+g_\chi\chi\,\mathrm{Tr}(\hat{\mathcal{A}}\hat{\mathcal{E}})+\lambda_\chi\chi|\psi_{\mathrm{bio}}|^2\Big]$$
 
-**Scope:** Planck-foam degrees of freedom integrated out;
-mesoscale phenomenology only. UV unspecified.
+**Scope:** Planck-foam degrees of freedom integrated out; mesoscale phenomenology only.
+UV unspecified.
 
 ---
 
@@ -94,15 +68,7 @@ mesoscale phenomenology only. UV unspecified.
 
 ## 4) Boundary Phenomenology (Sole Phase-II Test)
 
-$$
-\Delta P_{\mathrm{Casimir}}
-=
--\frac{\hbar c\pi^2}{240d^4}
-+
-\alpha_{\mathrm{foam}}\frac{\hbar R_{\mathrm{eff}}}{d^2}
-\qquad
-(\sim52~\mathrm{pN}\ \text{at}\ d=1~\mathrm{mm})
-$$
+$$\Delta P_{\mathrm{Casimir}}=-\frac{\hbar c\pi^2}{240d^4}+\alpha_{\mathrm{foam}}\frac{\hbar R_{\mathrm{eff}}}{d^2}\quad(\sim52~\mathrm{pN}\text{ at }d=1~\mathrm{mm})$$
 
 **Toy12 constraint:** Requires 2026 multi-channel correlations
 (pN force sensing + EEG coherence),
