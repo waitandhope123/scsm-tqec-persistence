@@ -35,12 +35,17 @@ or experimentally indistinguishable mechanisms have been explicitly eliminated.
 
 ## Project Status
 
-- **Version:** v11.5.3  
-- **Phase-I:** **100% complete**  
-- **Validation:** 15 adversarial toy models (Toy11–Toy15 define Phase-I closure)
-- **Remaining claims:** small, explicit, and falsifiable
+Version: v11.5.3
 
-See [`STATUS.md`](STATUS.md) for a concise maturity and falsifiability overview.
+Phase-I: 100% complete (15 synthetic adversarial toys) ✓
+
+Phase-Ia: 100% complete (Toy16 real-data validation) ✓
+
+Validation: 16 adversarial toys (Toy11–Toy16 define Phase-I/Ia closure)
+
+Remaining claims: small, explicit, and falsifiable
+
+See STATUS.md for full maturity overview.
 
 ---
 
@@ -107,6 +112,10 @@ See [`STATUS.md`](STATUS.md) for a concise maturity and falsifiability overview.
   - `toy13_joint_boundary_and_khz_fingerprint.py`
   - `toy14_active_lockin_causality_phase_harmonics.py`
   - `toy15_nonlinear_chi.py`
+  - `toy16_aalto_casimir_scsm_validator.py` (NEW - Phase-Ia)
+
+    Aalto 2025 Casimir drums: F(1mm)=0.0pN ✓ (predicted null)
+
   - `scsm_utils/`  
     Shared utilities used across toy models.
 
@@ -127,6 +136,4 @@ MIT License. See [`LICENSE`](LICENSE).
 ---
 
 > **Summary:**  
-> This repository presents a lean, tightly scoped, and fully falsifiable
-> speculative framework whose core claims have survived adversarial modeling
-> and now await a single decisive experimental test.
+> Lean, falsifiable framework that survived 16 adversarial toys + first real-data test (Toy16 Aalto Casimir). Single Phase-II biological test remains.
