@@ -106,6 +106,7 @@ See [`STATUS.md`](STATUS.md) for a concise maturity and falsifiability overview.
   - `toy12b_boundary_model_selection.py`
   - `toy13_joint_boundary_and_khz_fingerprint.py`
   - `toy14_active_lockin_causality_phase_harmonics.py`
+  - `toy15_nonlinear_chi.py`
   - `scsm_utils/`  
     Shared utilities used across toy models.
 
