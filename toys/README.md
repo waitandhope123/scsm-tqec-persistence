@@ -233,7 +233,7 @@ Superconducting Casimir exhibits **no detectable anomalous force**
 - Best SCSM fit: **F₀ = 0.4 pN**, **d₀ = 0.0 mm**, **n = 3.2**  
 - **Perfect null confirmation** within experimental resolution
 
-![Toy16: SCSM fit on Aalto Casimir data (null force at 1 mm as predicted)](outputs/toy16_aalto_casimir_scsm_validator/toy16_scsm_result.png)
+![Toy16: SCSM fit on Aalto Casimir data (null force at 1 mm as predicted)](results/toy16_scsm_result.png)
 
 **Status:** **PASS** — First real-data validation survived
 
