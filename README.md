@@ -1,4 +1,4 @@
-Project status: Closed (see PROGRAM_STATUS.md)
+Project status: Closed (see FINAL_STATUS.md)
 
 # scsm-tqec-persistence
 
